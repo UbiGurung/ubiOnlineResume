@@ -1,0 +1,40 @@
+#experience{
+	background: url("sass/images2/bg-work.jpg");
+	@include background-cover(cover);
+
+	h3{
+			font-size: 2em;
+
+			span{
+				font-size: 20px;
+				margin-left: 10px;
+			}
+		}
+
+	.content{
+		width: 30%;
+		background-color: black;
+		color: #fff;
+	}
+
+	.tesco{
+		float: left;
+		margin-left: 10%;
+		padding-left: 10px;
+		margin-top: 5%;
+		border-left: 2px solid white;
+		border-top-left-radius: 50px;
+		border-bottom-left-radius: 50px;
+	}
+
+	.fundraiser{
+		margin-right: 10%;
+		float: right;
+		text-align: right;
+		margin-top: 20%;
+		padding-right: 20px;
+		border-right: 2px solid white;
+		border-top-right-radius: 50px;
+		border-bottom-right-radius: 50px;
+	}
+}

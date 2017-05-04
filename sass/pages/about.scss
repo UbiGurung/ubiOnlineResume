@@ -1,0 +1,24 @@
+#about{
+	background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+	@include background-cover(cover);
+
+	height: 120vh;
+	
+	.innerWrap{
+		padding-top: 7px;
+	}
+
+	.desc{
+		float: none;
+		margin: 0 auto;
+		margin-top: 50vh;
+		border: 2px dashed black;
+		width: 60vh;
+
+		p{
+			font-size: 1em;
+			color: #fff;
+			width: inherit;
+		}
+	}
+}

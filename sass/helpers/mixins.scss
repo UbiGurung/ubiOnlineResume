@@ -1,0 +1,6 @@
+@mixin background-cover($trait) {
+	-webkit-background-size: $trait;
+	-moz-background-size: $trait;
+	-o-background-size: $trait;
+	background-size: $trait;
+}

@@ -1,0 +1,41 @@
+#portfolio{
+	background: url("sass/images2/bg3.jpg");
+	@include background-cover(cover);
+	
+	.content{
+		position: relative;
+		font-size: 2em;
+		font-family: 'Muktai-Vaani', sans-serif;
+		letter-spacing: 2px;
+		background-color: white;
+		width: 90%;
+		margin: 0 auto;
+		color: white;
+
+		img{
+			position: absolute;
+			height: 300px;
+			width: 600px;
+		}
+
+		.img2{
+			margin-top: 33%;
+			margin-left: 45%;
+		}
+	}
+
+		.left{
+			position: absolute;
+			width: 40%;
+			margin-top: 33%;	
+			text-align: right;
+		}
+
+		.right{
+			position: absolute;
+			width: 40%;
+			margin-top: 5%;
+			text-align: left;
+			right: 0;
+		}
+}

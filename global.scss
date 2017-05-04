@@ -1,0 +1,49 @@
+@import "sass/helpers/mixins";
+@import "sass/helpers/variables";
+@import "sass/components/navbar";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Mukta+Vaani');
+
+body{
+	opacity: 1;
+	transition: opacity 5s;
+	margin: 0 0 0 0;
+	padding: 0;
+	}
+
+.wrapper{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+
+	 li{
+		height: 100%;
+		width: 100%;
+		font-family: 'Mukta Vaani', sans-serif;
+		list-style: none;
+		padding-top: 90px;
+		padding-bottom: 90px;
+
+		.innerWrap{
+			position: relative;
+			padding: 0 50px 0 50px;
+		}
+
+		h1{
+			position: relative;
+			padding-top: 5px;
+			font-size: 4em;
+			color: #fff;
+			z-index: 2;
+			width: 600px;
+		}
+	}
+}
+
+@import "sass/pages/about";
+@import "sass/pages/education";
+@import "sass/pages/experience";
+@import "sass/pages/portfolio";
+@import "sass/pages/contact";

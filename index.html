@@ -1,0 +1,148 @@
+<html>
+<head>
+	<title>Ubi's Online Portfolio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="global.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="navbar-menu">
+		<a class="logo" href="#about">Ubi Gurung</a>
+		<ul class="navbar-right">
+			<li class="navbar-btn btn"><a class="link" href="#education">education</a></li>
+			<li class="navbar-btn btn"><a class="link" href="#experience">experience</a></li>
+			<li class="navbar-btn btn"><a class="link" href="#portfolio">portfolio</a></li>
+			<li class="navbar-btn btn"><a class="link" href="#contact">contact</a></li>
+		</ul>
+	</div>
+
+	<ul class="wrapper">
+		<li id="about">
+			<div class="innerWrap">
+				<div class="desc shadow">
+					<p>Hi, I am Ubichhhya Gurung (or Ubi for short). My ambitions are to be a proficient programmer and create some really cool stuff. Through self study and online resources I have tried my very best to be an adequate beginner for coding. Please check out the rest of my online resume to see what I have done.</p>
+				</div>
+			</div>
+		</li>
+		<li id="education">
+			<div class="innerWrap">
+
+				<div class="otherWrap">
+					<h2>London Academy</h2>
+					<div class="a-level">
+						<h4>A-Level</h4>
+						<table>
+							<tbody>
+								<tr class="grade">
+									<td>B</td>
+									<td>B</td>
+									<td>C</td>
+								</tr>
+								<tr>
+									<td>Geography</td>
+									<td>Mathematics</td>
+									<td>I.T</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="gcse">
+						<h4>G.C.S.E</h4>
+						<table>
+							<tbody>
+								<tr class="grade">
+									<td>A</td>
+									<td>C</td>
+									<td>B</td>
+									<td>B</td>
+								</tr>
+								<tr>
+									<td>English Literature</td>
+									<td>English Language</td>
+									<td>Mathematics</td>
+									<td>Science</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+					<div class="content">
+						<p>Studied from Year 7 to Sixth-Form. I was a friendly, positive student with humbleness and determination as my core strengths. Gained an award for Geographer of the year during A-Levels.</p>
+					</div>
+			</div>
+
+		</li>
+		<li id="experience">
+				<div class="innerWrap">
+						<div class="tesco content">
+							<h3>Tesco<span>(2014-2016)</span></h3>
+							<p>Worked as a customer assistant in a fast-paced environment. Working in an express store meant I have a variety of roles; running the tills, stocking products and managing the warehouse.</p>
+							<p>Supported my team daily by doing the best I can for my role and helping others when possible. My manangers always complimented how I learnt quickly and done my duties efficiently.</p>
+							<p>Made customers feel welcome and happy and showed real empathy towards them when dealing with their problems.</p>
+						</div>
+					
+						<div class="fundraiser content">
+							<h3>Street-Fundraiser<span>(2013)</span></h3>
+							<p>Part of a team as a paid street-fundraiser, representing the charity Barnados.</p>
+							<p>Interacted with hundreds of potential donors with warm, friendly and fun attitude.</p>
+							<p>Showed adaptability and determination as this job was very unsual to me, but I stuck through it and managed to do fairly well.</p>
+						</div>
+				</div>
+		</li>
+		<li id="portfolio">
+			<div class="innerWrap">
+					<div class="content">
+						<img class="img img1" src="sass/images2/bg.jpg">
+						<p class="right">So far I have only worked on one personal project. This is a website that is poll-based and powered by PHP and SQL.</p>
+					</div>
+					<div class="content">
+						<p class="left">Main objective of the website is to allow people to share their greatest picks for particular subjects, like toughest boxer, by creating and/or participating in polls.</p>
+						<img class="img img2" src="sass/images2/bg.jpg">
+					</div>
+			</div>
+		</li>
+		<li id="contact">
+			<div class="innerWrap">
+				<div class="title">
+					<h2>Like what you see?</h2>
+					<p>Then lets get in touch</p>
+				</div>
+				<div class="content">
+					<p>Ubichchhya Gurung</p><br/>
+					<p>ub_g@outlook.com</p><br/>
+					<p>07450207328</p><br/>
+				</div>
+				<div class="social">
+					<h2>or you can contact me by social media...</h2>
+					<a href="https://www.linkedin.com/in/ubichchhya-gurung-11b549142/">LinkedIn</a>
+					<a href="https://www.facebook.com/ubi.gurung.94">Facebook</a>
+					<a href="https://twitter.com/ubiWula">Twitter</a>
+					<a href="https://www.instagram.com/ubiwula/">Instagram</a>
+				</div>
+			</div>
+		</li>
+	</ul>
+
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+		$('.tab-btn').on('click', function(){
+			var button = $(this).text();
+			if( button == 'Education')
+			{
+				$("#education").css('display', 'block');
+				$("#work").css("display", "none");
+			}
+			else
+			{
+				$("#work").css("display", "block");
+				$("#education").css("display", "none");
+			}
+		});
+	});
+	</script>
+
+</body>
+</html>

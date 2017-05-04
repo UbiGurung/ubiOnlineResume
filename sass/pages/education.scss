@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'chalk';
+  src: url('https://tylermoeller.github.io/tic-tac-toe/fonts/eraserdust-webfont.eot'),
+       url('https://tylermoeller.github.io/tic-tac-toe/fonts/eraserdust-webfont.eot?#iefix') format('embedded-opentype'),
+       url('https://tylermoeller.github.io/tic-tac-toe/fonts/eraserdust-webfont.woff2') format('woff2'),
+       url('https://tylermoeller.github.io/tic-tac-toe/fonts/eraserdust-webfont.woff') format('woff'),
+       url('https://tylermoeller.github.io/tic-tac-toe/fonts/eraserdust-webfont.ttf') format('truetype'),
+       url('https://tylermoeller.github.io/tic-tac-toe/fonts/eraserdust-webfont.svg#eraserdust') format('svg');
+  font-weight: bold;
+}
+
+#education{
+	background: url("sass/images2/chalkboard.jpg");
+	@include background-cover(cover);
+
+	font-family: 'chalk', sans-serif;
+	color: white;
+
+	h2{
+		text-align: center;
+		letter-spacing: 20px;
+		width: auto;
+		margin: 0 auto;
+		padding-bottom: 50px;
+		padding-top: 10px;
+		font-size: 3em;
+	}
+
+	h4{
+		font-size: 2em;
+		border-bottom: 2px solid white;
+	}
+
+	h3{
+		text-align: center;
+		font-size: 2.2em;
+	}
+
+	td{
+		text-align: center;
+		color: #fff;
+	}
+
+	.grade{
+		font-size: 2em;
+	}
+
+	.otherWrap{
+		position: relative;
+		width: 100%;
+
+		.a-level{
+			text-align: center;
+			position: absolute;
+			float: left;
+			width: 50%;
+			border-right: 1px solid white;
+
+			table{
+				margin: 0 auto;
+
+				td{
+					padding: 0 80px 0 40px;
+				}
+			}
+		}
+
+		.gcse{
+			text-align: center;
+			position: absolute;
+			float: right;
+			right: 0;
+			width: 50%;
+
+			table{
+				margin: 0 auto;
+
+				td{
+					padding: 0 30px 0 30px;
+				}
+			}
+		}
+	}
+
+	.content{
+		position: relative;
+		text-align: center;
+		width: 700px;
+		margin: 0 auto;
+		margin-top: 25%;
+		letter-spacing: 2px;
+	}
+}
+

@@ -1,0 +1,48 @@
+#contact{
+	background: url("sass/images2/bg4.jpg");
+	@include background-cover(cover);
+
+	.title{
+		width: 700px;
+		margin: 0 auto;
+		text-align: center;
+		color: #fff;
+
+		h2{
+			font-size: 3em;
+			letter-spacing: 5px;
+			margin-bottom: -20px;
+		}
+
+		p{
+			font-size: 1.5em;
+			letter-spacing: 3px;
+		}
+	}
+
+	.content{
+		width: 400px;
+		margin: 0 auto;
+		margin-top: 50px;
+		color: #fff;
+		text-align: center;
+	}
+
+	.social{
+		width: 700px;
+		margin: 0 auto;
+		bottom: 20px;
+		text-align: center;
+
+		h2{
+			text-align: center;
+			color: #fff;
+		}
+		a{
+			color: #fff;
+			display: inline-block;
+			padding: 0 50px 0 50px;
+			text-decoration: none;
+		}
+	}
+}

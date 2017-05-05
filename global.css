@@ -114,7 +114,8 @@ body {
   background-size: cover;
   height: 120vh; }
   #about .innerWrap {
-    padding-top: 7px; }
+    padding-top: 7px;
+    background-color: blue; }
   #about .desc {
     float: none;
     margin: 0 auto;

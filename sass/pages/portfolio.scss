@@ -7,35 +7,45 @@
 		font-size: 2em;
 		font-family: 'Muktai-Vaani', sans-serif;
 		letter-spacing: 2px;
-		background-color: white;
 		width: 90%;
 		margin: 0 auto;
 		color: white;
 
 		img{
 			position: absolute;
-			width: 55%;
+			width: 50%;
 			height: 50vh;
-		}
-
-		.img2{
-			margin-top: 60vh;
-			margin-left: 45%;
 		}
 	}
 
 		.left{
-			position: absolute;
-			width: 40%;
-			margin-top: 60vh;	
-			text-align: right;
+			padding-top: 5%;
+			height: 45%;
+
+			img{
+				float: right;
+			}
+
+			p{
+				float: left;
+				width: 40%;
+				margin: 5%;
+				text-align: right;	
+			}
 		}
 
 		.right{
-			position: absolute;
-			width: 40%;
-			margin-top: 5%;
-			text-align: left;
-			right: 0;
+			height: 45%;
+
+			img{
+				float: left;
+			}
+
+			p{
+				float: right;
+				width: 40%;
+				margin: 5%;
+				text-align: left;
+			}
 		}
 }

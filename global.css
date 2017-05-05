@@ -157,6 +157,8 @@ body {
     color: #fff; }
   #education .grade {
     font-size: 3em; }
+  #education .gradeLeve {
+    padding-top: 5vh; }
   #education .otherWrap {
     position: relative;
     width: 100%; }

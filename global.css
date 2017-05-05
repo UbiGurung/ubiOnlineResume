@@ -114,8 +114,7 @@ body {
   background-size: cover;
   height: 120vh; }
   #about .innerWrap {
-    padding-top: 7px;
-    background-color: blue; }
+    padding-top: 7px; }
   #about .desc {
     float: none;
     margin: 0 auto;
@@ -187,7 +186,7 @@ body {
   #education .content {
     position: relative;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
     width: 700px;
     margin: 0 auto;
     margin-top: 70vh;
@@ -199,6 +198,9 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  #experience .innerWrap {
+    position: relative;
+    height: 100%; }
   #experience h3 {
     font-size: 2em; }
     #experience h3 span {
@@ -210,6 +212,7 @@ body {
     font-size: 1em;
     color: #fff; }
   #experience .tesco {
+    position: absolute;
     float: left;
     margin-left: 10%;
     padding-left: 10px;
@@ -218,10 +221,12 @@ body {
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px; }
   #experience .fundraiser {
+    right: 0;
+    position: absolute;
+    bottom: 0;
     margin-right: 10%;
     float: right;
     text-align: right;
-    margin-top: 20%;
     padding-right: 20px;
     border-right: 2px solid white;
     border-top-right-radius: 50px;
@@ -257,7 +262,7 @@ body {
   #portfolio .right {
     position: absolute;
     width: 40%;
-    margin-top: 5%;
+    margin-top: 33%;
     text-align: left;
     right: 0; }
 

@@ -42,7 +42,7 @@
 	}
 
 	.grade{
-		font-size: 2em;
+		font-size: 3em;
 	}
 
 	.otherWrap{
@@ -54,6 +54,7 @@
 			position: absolute;
 			float: left;
 			width: 50%;
+			height: 60vh;
 			border-right: 1px solid white;
 
 			table{
@@ -87,7 +88,7 @@
 		text-align: center;
 		width: 700px;
 		margin: 0 auto;
-		margin-top: 25%;
+		margin-top: 70vh;
 		letter-spacing: 2px;
 	}
 }

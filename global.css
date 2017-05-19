@@ -240,7 +240,6 @@ body {
   background-size: cover; }
   #portfolio .content {
     position: relative;
-    font-size: 2em;
     font-family: 'Muktai-Vaani', sans-serif;
     letter-spacing: 2px;
     width: 90%;
@@ -250,6 +249,8 @@ body {
       position: absolute;
       width: 50%;
       height: 50vh; }
+    #portfolio .content p {
+      font-size: 1.5em; }
   #portfolio .left {
     padding-top: 5%;
     height: 45%; }
